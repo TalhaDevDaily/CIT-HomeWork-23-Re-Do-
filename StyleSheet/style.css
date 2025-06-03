@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 140rem;
+  display: grid;
+  gap: 20rem;
+}
+
+/* Task 1 */
+.task1 {
+  margin-top: 5rem;
+}
+
+/* Task 2 */
+.color-show {
+  width: 40rem;
+  height: 40rem;
+  background-color: #000;
+}
+
+.color-select {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 4rem);
+  gap: 2rem;
+  width: 18rem;
+}
+
+.bg-color {
+  width: 4rem;
+  height: 4rem;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.reload-page {
+  width: 8rem;
+  height: 4rem;
+  grid-row: 1 / span 2;
+  grid-column: 3;
+  align-self: center;
+}
+
+/* Task 4 */
+.quantity-selector {
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts by GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./StyleSheet/style.css" />
+    <title>DOM (Re-Do)</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Task 1 -->
+      <div class="task1">
+        <h1 class="task1-header">Hello this is my Task 1</h1>
+        <button class="task1-btn" onclick="handleTask1Btn()">
+          Change Color
+        </button>
+      </div>
+
+      <!-- Task 2 -->
+      <div>
+        <h2 class="task2-header">This is Task 2</h2>
+        <button class="task2Btn" onclick="handleTask2Btn()">
+          Complete Task
+        </button>
+      </div>
+
+      <div>
+        <div class="color-show"></div>
+        <div class="color-select">
+          <div class="yellow bg-color" onclick="handleYellowBg()"></div>
+          <div class="green bg-color" onclick="handleGreenBg()"></div>
+          <div class="pink bg-color" onclick="handlePinkBg()"></div>
+          <div class="purple bg-color" onclick="handlePurpleBg()"></div>
+          <button class="reload-page" onclick="handleReloadPage()">
+            Reset
+          </button>
+        </div>
+      </div>
+
+      <!-- Task 4 -->
+      <div class="quantity-selector">
+        <h2>Quantity: <span class="quantity"></span></h2>
+      </div>
+    </div>
+    <!-- My Custom Script File -->
+    <script defer src="./JavaScript/script.js"></script>
+  </body>
+</html>
