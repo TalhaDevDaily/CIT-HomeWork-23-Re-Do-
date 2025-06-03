@@ -75,4 +75,46 @@ button {
 
 /* Task 4 */
 .quantity-selector {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  width: 30rem;
+}
+
+.quantity-selector h2 {
+  /* grid-column: 1 / span 2; */
+}
+
+.task4-input {
+  grid-column: 2 / -1;
+}
+
+.add {
+  grid-column: 4;
+}
+
+/* Task 6 */
+.color-box {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header-color {
+  width: 4rem;
+  height: 4rem;
+}
+
+.red-color {
+  background-color: red;
+}
+
+.blue-color {
+  background-color: blue;
+}
+
+.green-color {
+  background-color: green;
 }

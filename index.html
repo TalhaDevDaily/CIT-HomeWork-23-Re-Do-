@@ -49,7 +49,31 @@
 
       <!-- Task 4 -->
       <div class="quantity-selector">
-        <h2>Quantity: <span class="quantity"></span></h2>
+        <h2>Quantity:</h2>
+        <input type="text" class="task4-input" />
+        <button class="delete" onclick="handleDeleteBtn()">-</button>
+        <button class="add" onclick="handleAddBtn()">+</button>
+      </div>
+
+      <!-- Task 5 -->
+      <div class="task5">
+        <p class="task5-null-msg"></p>
+        <input class="task5-input" placeholder="Write your Name" type="text" />
+        <button class="task5-submit-btn" onclick="handleTask5SubmitBtn()">
+          Submit
+        </button>
+      </div>
+
+      <!-- Task 6 -->
+      <div class="task6">
+        <p class="null-task6-input"></p>
+        <input type="text" class="task6-input" />
+        <button class="task6-btn" onclick="handleTask6Btn()">Show Text</button>
+        <!-- <div class="color-box">
+          <div class="red-color header-color"></div>
+          <div class="blue-color header-color"></div>
+          <div class="green-color header-color"></div>
+        </div> -->
       </div>
     </div>
     <!-- My Custom Script File -->
